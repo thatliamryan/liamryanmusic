@@ -1,6 +1,6 @@
 body {
 
-    background-color: #f8f6f1;
+    background-color: #f9f6f0;
 
     margin: 0;
 
@@ -14,9 +14,9 @@ header {
 
     align-items: center;
 
-    padding: 24px 60px;
+    padding: 24px 54px;
 
-    border-bottom: 1px solid #dddddd;
+    border-bottom: 2px solid #dddddd;
 
 }
 
@@ -32,7 +32,7 @@ header {
 
     font-size: 20px;
 
-    color: #555555;
+    color: #373737;
 
     margin-left: 8px;
 
