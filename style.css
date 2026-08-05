@@ -8,21 +8,31 @@ body {
 
 }
 
+.page {
+
+    max-width: 1400px;
+
+    margin: 0 auto;
+
+    padding: 24px 48px;
+
+}
+
 header {
 
     display: flex;
 
     align-items: center;
 
-    padding: 24px 54px;
+    padding: 20px 54px;
 
-    border-bottom: 2px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
 
 }
 
 .name {
 
-    font-size: 36px;
+    font-size: 24px;
 
     font-weight: bold;
 
@@ -30,10 +40,74 @@ header {
 
 .subtitle {
 
-    font-size: 20px;
+    font-size: 14px;
 
-    color: #373737;
+    color: #555555;
 
-    margin-left: 8px;
+    margin-left: 2px;
+
+}
+
+main {
+
+    display: flex;
+
+    justify-content: center;
+
+    margin-top: 80px;
+
+}
+
+.hero-box {
+
+    background-color: white;
+
+    width: 850px;
+
+    border-radius: 24px;
+
+    padding: 80px;
+
+    text-align: center;
+
+    box-shadow: 0px 8px 25px rgba(0,0,0,0.08);
+
+}
+
+.hero-label {
+
+    font-family: "Courier New", monospace;
+
+    font-size: 16px;
+
+    color: #314A74;
+
+    letter-spacing: 2px;
+
+    margin-bottom: 25px;
+
+}
+
+.hero-title {
+
+    font-size: 64px;
+
+    font-weight: bold;
+
+    margin: 0;
+
+}
+
+.hero-description {
+
+    font-size: 26px;
+
+    color: #666666;
+
+    line-height: 1.5;
+
+    max-width: 550px;
+
+    margin: 35px auto 0 auto;
 
 }
