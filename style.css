@@ -8,6 +8,14 @@ body {
 
 }
 
+hr {
+    width: 100%;
+    border: none;
+    height: 1px;
+    background-color: #ddd;
+    margin: 80px 0;
+}
+
 .page {
 
     max-width: 1400px;
@@ -26,7 +34,7 @@ header {
 
     padding: 20px 54px;
 
-    border-bottom: 1px solid #dddddd;
+    border-bottom: 1px solid #ddd;
 
 }
 
@@ -49,13 +57,12 @@ header {
 }
 
 main {
-
+  
     display: flex;
-
-    justify-content: center;
-
+    flex-direction: column;
+    align-items: center;
     margin-top: 80px;
-
+  
 }
 
 .hero-box {
@@ -110,4 +117,76 @@ main {
 
     margin: 35px auto 0 auto;
 
+}
+
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+    margin-top: 45px;
+}
+
+.book-button,
+.lessons-button {
+    width: 240px;
+    padding: 16px 30px;
+    font-size: 17px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.book-button {
+    background-color: #314A74;
+    color: white;
+    font-weight: 700;
+}
+
+.book-button:hover {
+    background-color: #3d5a8c;
+}
+
+.lessons-button {
+    background-color: #e6e6e6;
+    color: #333;
+    font-weight: 500;
+}
+
+.lessons-button:hover {
+    background-color: #d8d8d8;
+}
+
+.about-section {
+    margin-top: 0px;
+}
+
+.about-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.photo-placeholder {
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 24px;
+}
+
+.about-box {
+    width: 500px;
+    height: 300px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
 }
