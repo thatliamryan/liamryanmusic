@@ -1,0 +1,17 @@
+header {
+    display: flex;
+    align-items: center;
+    padding: 20px 54px;
+    border-bottom: 1px solid #ddd;
+}
+
+.name {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.subtitle {
+    font-size: 14px;
+    color: #555555;
+    margin-left: 2px;
+}
