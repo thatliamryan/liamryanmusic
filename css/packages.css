@@ -1,0 +1,88 @@
+.pricing-section {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.pricing-table {
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.pricing-label {
+    font-family: "Courier New", monospace;
+    font-size: 16px;
+    color: #314A74;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.pricing-title {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.pricing-description {
+    font-size: 18px;
+    color: #666;
+    text-align: center;
+}
+
+.package-list {
+    width: 100%;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-top: 40px;
+}
+
+.package {
+    min-height: 100px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.package + .package {
+    border-top: 1px solid #ddd;
+}
+
+.package-info h2 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.package-info p {
+    margin: 6px 0 0 0;
+    font-size: 14px;
+    color: #666;
+}
+
+.package-price {
+    align-self: flex-end;
+    font-size: 16px;
+    color: #333;
+}
+
+.template-package {
+    background-color: #f9f6f0;
+    color: #666;
+    min-height: 70px;
+}
+
+.template-package-name {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.template-package-price {
+    align-self: flex-end;
+    font-size: 12px;
+    font-weight: 500;
+}
