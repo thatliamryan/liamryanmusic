@@ -208,7 +208,8 @@
                         </h2>
 
                         <p>
-                            Bring it into our lesson! Whether it’s notes, an assignment, or a previous exam, each lesson is personalized to meet your individual needs.
+                            Bring it into our lesson! Whether it’s notes, an assignment, or a previous exam, each lesson
+                            is personalized to meet your individual needs.
                         </p>
 
                     </div>
@@ -291,54 +292,55 @@
                     Tell me a bit about your goals and I'll follow up within a <br> day to find a time that works.
                 </p>
 
-                <form
-                    class="contact-box"
-                    action="https://formspree.io/f/xzepqyrr"
-                    method="POST"
-                >
-                    <input
-                        type="hidden"
-                        name="subject"
-                        value="New intro call request from {{ name }}"
-                    >
+                <div class="contact-box">
 
-                    <label for="name">Name</label>
+                    <form id="contact-form" action="https://formspree.io/f/xzepqyrr" method="POST">
 
-                    <input
-                        type="text"
-                        id="name"
-                        name="name"
-                        placeholder="Your name"
-                    >
+                        <input type="hidden" name="subject" value="New intro call request">
 
-                    <label for="email">Email</label>
-                    <input
-                        type="email"
-                        id="email"
-                        name="email"
-                        placeholder="you@email.com"
-                    >
+                        <label for="name">Name</label>
 
-                    <label for="message">
-                        What would you like to work on?
-                    </label>
+                        <input type="text" id="name" name="name" placeholder="Your name">
 
-                    <textarea
-                        id="message"
-                        name="message"
-                        placeholder="e.g. intervals, understanding functional harmony, key signatures"
-                    ></textarea>
+                        <label for="email">Email</label>
 
-                    <button class="request-button">
-                        Submit
-                    </button>
+                        <input type="email" id="email" name="email" placeholder="you@email.com">
 
-                </form>
+                        <label for="message">
+                            What would you like to work on?
+                        </label>
+
+                        <textarea id="message" name="message"
+                            placeholder="e.g. intervals, understanding functional harmony, key signatures"></textarea>
+
+                        <button type="submit" class="request-button">
+                            Submit
+                        </button>
+
+                    </form>
+
+
+                    <div id="form-success" class="form-success">
+
+                        <h2>Thanks!</h2>
+
+                        <p>
+                            Your message has been sent. I'll get back to you soon.
+                        </p>
+
+                    </div>
+
+                </div>
 
             </section>
 
+            <hr>
+
         </main>
     </div>
+
+    <script src="js/contact.js"></script>
+
 </body>
 
 </html>
