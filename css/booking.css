@@ -1,0 +1,63 @@
+.booking-label {
+    font-family: "Courier New", monospace;
+    font-size: 16px;
+    color: #314A74;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.booking-title {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.booking-description {
+    font-size: 18px;
+    color: #666;
+    text-align: center;
+}
+
+.contact-box {
+    width: 100%;
+    max-width: 600px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.contact-box label {
+    display: block;
+    font-size: 14px;
+    margin-top: 18px;
+    margin-bottom: 8px;
+}
+
+.contact-box input,
+.contact-box select,
+.contact-box textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-family: inherit;
+    font-size: 15px;
+}
+
+.request-button {
+    width: 100%;
+
+    margin-top: 20px;
+    padding: 14px;
+
+    background-color: #314A74;
+    color: white;
+
+    border: none;
+    border-radius: 6px;
+
+    font-size: 16px;
+    font-family: inherit;
+
+    cursor: pointer;
+}

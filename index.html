@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/about.css">
     <link rel="stylesheet" href="css/packages.css">
     <link rel="stylesheet" href="css/teaching.css">
+    <link rel="stylesheet" href="css/booking.css">
 </head>
 
 <body>
@@ -150,7 +151,7 @@
                                 <h3>TRIADS</h3>
                             </div>
                             <p class="topic-subheading">
-                                Notated & aural identification
+                                Notation & aural identification
                             </p>
                             <div class="topic-divider"></div>
                             <div class="topic-list">
@@ -271,7 +272,7 @@
                         </div>
 
                         <div class="package-price">
-                            $610
+                            $510
                         </div>
                     </div>
                 </div>
@@ -279,11 +280,62 @@
             </section>
 
             <hr>
-            <hr>
-            <hr>
-            <hr>
-            <hr>
-            <hr>
+
+            <section class="booking-section">
+
+                <p class="booking-label">GET STARTED</p>
+
+                <h1 class="booking-title">Contact me!</h1>
+
+                <p class="booking-description">
+                    Tell me a bit about your goals and I'll follow up within a <br> day to find a time that works.
+                </p>
+
+                <form
+                    class="contact-box"
+                    action="https://formspree.io/f/xzepqyrr"
+                    method="POST"
+                >
+                    <input
+                        type="hidden"
+                        name="subject"
+                        value="New intro call request from {{ name }}"
+                    >
+
+                    <label for="name">Name</label>
+
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        placeholder="Your name"
+                    >
+
+                    <label for="email">Email</label>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="you@email.com"
+                    >
+
+                    <label for="message">
+                        What would you like to work on?
+                    </label>
+
+                    <textarea
+                        id="message"
+                        name="message"
+                        placeholder="e.g. intervals, understanding functional harmony, key signatures"
+                    ></textarea>
+
+                    <button class="request-button">
+                        Submit
+                    </button>
+
+                </form>
+
+            </section>
 
         </main>
     </div>
