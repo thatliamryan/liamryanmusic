@@ -44,6 +44,11 @@
     font-size: 15px;
 }
 
+.contact-box textarea{
+    height: 150px;
+    resize: none;
+}
+
 .request-button {
     width: 100%;
 

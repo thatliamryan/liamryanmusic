@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Get Started | LiamRyanMusic</title>
+
+    <link rel="icon" type="image/png" href="images/favicon.png">
+
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/booking.css">
+</head>
+
+<body>
+
+    <div id="header-placeholder"></div>
+
+    <main>
+
+        <section class="booking-section">
+
+            <p class="booking-label">GET STARTED</p>
+
+            <h1 class="booking-title">Contact me!</h1>
+
+            <p class="booking-description">
+                Tell me a bit about your goals and I'll follow up via email <br> to find a time that works.
+            </p>
+
+            <div class="contact-box">
+
+                <form id="contact-form" action="https://formspree.io/f/xzepqyrr" method="POST">
+
+                    <input type="hidden" name="subject" value="New intro call request">
+
+                    <label for="name">Name</label>
+
+                    <input type="text" id="name" name="name" placeholder="Your name">
+
+                    <label for="email">Email</label>
+
+                    <input type="email" id="email" name="email" placeholder="you@email.com">
+
+                    <label for="message">
+                        What would you like to work on?
+                    </label>
+
+                    <textarea id="message" name="message"
+                        placeholder="e.g. intervals, understanding functional harmony, key signatures">
+                        </textarea>
+
+                    <button type="submit" class="request-button">
+                        Send
+                    </button>
+
+                </form>
+
+
+                <div id="form-success" class="form-success">
+
+                    <h2>Thanks!</h2>
+
+                    <p>
+                        Your message has been sent. I'll get back to you soon.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="js/header.js"></script>
+    <script src="js/footer.js"></script>
+
+</body>
+
+</html>
