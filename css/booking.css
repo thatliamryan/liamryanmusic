@@ -83,3 +83,99 @@
     color: #666;
     font-size: 17px;
 }
+
+.process-section {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 80px 20px;
+}
+
+
+/* Section heading */
+
+.process-label {
+    margin: 0 0 10px 0;
+
+    font-family: "Courier New", monospace;
+    font-size: 16px;
+    letter-spacing: 2px;
+    color: #314A74;
+
+    text-align: center;
+}
+
+.process-title {
+    margin: 0 0 20px 0;
+
+    font-size: 24px;
+    font-weight: bold;
+
+    text-align: center;
+}
+
+.process-description {
+    max-width: 600px;
+
+    margin: 15px auto 60px auto;
+
+    font-size: 18px;
+    line-height: 1.6;
+    color: #666;
+
+    text-align: center;
+}
+
+/* Timeline */
+
+.process-list {
+    width: 100%;
+}
+
+.process-step {
+    display: grid;
+    grid-template-columns: 70px 1fr;
+    column-gap: 30px;
+
+    padding: 35px 0;
+
+    border-top: 1px solid #ddd;
+}
+
+.process-step:last-child {
+    border-bottom: 1px solid #ddd;
+}
+
+/* Number */
+
+.process-number {
+    font-family: "Courier New", monospace;
+
+    font-size: 18px;
+    color: #314A74;
+
+    padding-top: 2px;
+}
+
+/* Step content */
+
+.process-content {
+    max-width: 650px;
+}
+
+.process-content h3 {
+    margin: 0 0 10px 0;
+
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.process-content p {
+    margin: 0;
+
+    max-width: 650px;
+
+    font-size: 16px;
+    line-height: 1.7;
+    color: #555;
+}
