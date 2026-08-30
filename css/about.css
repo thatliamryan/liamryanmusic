@@ -42,3 +42,22 @@
     line-height: 2;
     margin: 35px 0 0 0;
 }
+
+.about-qualifications {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+
+    margin-top: 30px;
+}
+
+.qualification {
+    padding: 12px 22px;
+    background-color: white;
+    border: 1px solid #e8e8e8;
+    border-radius: 20px;
+    font-size: 16px;
+    color: #444;
+    white-space: nowrap;
+}

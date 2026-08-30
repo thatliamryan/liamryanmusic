@@ -87,3 +87,35 @@
     font-weight: 500;
 }
 
+.pricing-information {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 80px 20px;
+}
+
+.pricing-information h2 {
+    margin: 0 0 20px 0;
+
+    font-size: 24px;
+    font-weight: bold;
+
+    text-align: center;
+}
+
+.pricing-information p {
+    max-width: 650px;
+    margin: 0 auto;
+
+    text-align: left;
+
+    font-size: 16px;
+    line-height: 1.7;
+    color: #555;
+
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+
+    padding: 30px 20px
+}
+
