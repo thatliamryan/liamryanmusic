@@ -21,7 +21,7 @@ footer {
 }
 
 .footer-email {
-    color: #666;
+    color: var(--color-desc);
     text-decoration: none;
 
     font-size: 13px;
@@ -30,7 +30,7 @@ footer {
 }
 
 .footer-email:hover {
-    color: #314A74;
+    color: var(--color-primary);
 }
 
 .footer-copyright {

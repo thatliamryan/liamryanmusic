@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: #f9f6f0;
+    background-color: var(--color-background);
     margin: 0;
     font-family: Georgia, serif;
 }

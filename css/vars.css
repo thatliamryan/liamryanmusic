@@ -1,0 +1,10 @@
+:root {
+    /* COLORS */
+    --color-background: #f9f6f0;
+    --color-primary: #314A74;
+
+    --color-title: black;
+    --color-desc: #666666;
+    
+    --color-box: white;
+}

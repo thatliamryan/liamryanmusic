@@ -29,7 +29,7 @@
 .hero-label {
     font-family: "Courier New", monospace;
     font-size: 16px;
-    color: #314A74;
+    color: var(--color-primary);
     letter-spacing: 2px;
     margin-bottom: 25px;
 }
@@ -42,7 +42,7 @@
 
 .hero-description {
     font-size: 26px;
-    color: #666666;
+    color: var(--color-desc);
     line-height: 1.5;
     max-width: 550px;
     margin: 35px 0 0 0;
@@ -71,7 +71,7 @@
 }
 
 .book-button {
-    background-color: #314A74;
+    background-color: var(--color-primary);
     color: white;
     font-weight: 500;
 }
