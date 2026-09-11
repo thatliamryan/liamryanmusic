@@ -2,30 +2,25 @@
     width: 100%;
     max-width: 900px;
     margin: 0 auto;
-    padding: 80px 20px;
+    padding: 0px 20px 50px;
 }
 
 
 /* Section heading */
 
 .process-label {
-    margin: 0 0 10px 0;
-
     font-family: "Courier New", monospace;
     font-size: 16px;
-    letter-spacing: 2px;
     color: var(--color-primary);
-
+    letter-spacing: 2px;
     text-align: center;
 }
 
 .process-title {
-    margin: 0 0 20px 0;
-
-    font-size: 24px;
+    font-size: 32px;
     font-weight: bold;
-
     text-align: center;
+    margin-bottom: 40px;
 }
 
 .process-description {
@@ -98,7 +93,7 @@
     width: 100%;
     max-width: 900px;
     margin: 0 auto;
-    padding: 80px 20px;
+    padding: 40px 20px;
 }
 
 .pricing-information h2 {

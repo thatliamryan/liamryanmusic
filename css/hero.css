@@ -107,10 +107,6 @@
         gap: 8px;
     }
 
-    .hero-photo {
-        display: none;
-    }
-
     .hero-label {
         text-align: center;
     }
@@ -121,7 +117,6 @@
 
     .hero-description {
         text-align: center;
-        font-size: 20px;
     }
 
 }
